@@ -22,7 +22,5 @@ var longestConsecutive = function(nums) {
     
     return longestStreak;
 };
-
-// 测试代码
 const nums = [100, 4, 200, 1, 3, 2];
 console.log("最长连续序列长度:", longestConsecutive(nums)); // 应输出 4
